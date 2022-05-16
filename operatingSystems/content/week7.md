@@ -26,6 +26,7 @@
     * A pointer that does the same as above but with 3 layers of abstraction. (Triple Indirect Block).
 
 ## INODE advantages
-* The attributes section does not contain the file name, the file name is a special INODE in the INODE Table that points to some data.
+* The attributes section does not contain the file name, the file name is a special INODE in the INODE Table that points to the INODE of the file that it is naming.
 * Because of the fact that a filename is just part of the INODE table, multiple filenames can point to the same file.
 * When moving data to a different part of the filesystem, the data does not need to be moved, only the filename INODE needs to be updated, thus moving files happens instantaneously regardless of size.
+* When deleting a file the INODE pointing to it needs to be deleted. However, since multiple inodes can point to the same file, the OS needs to keep track of how many inodes are pointing to a particular block and only when the count is 0 is the OS able to free the space. This is a form of garbage collection.
