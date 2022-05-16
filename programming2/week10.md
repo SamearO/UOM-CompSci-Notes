@@ -62,8 +62,3 @@ produce_thread.start();
 consume_thread.start(); 
 
 ```
-
-
-
-
-
