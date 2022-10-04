@@ -18,3 +18,6 @@
 
 ## Programming Languages and Paradigms
 * These notes are comprehensive.
+
+## Database Systems
+* These notes are comprehensive.

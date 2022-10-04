@@ -24,7 +24,7 @@ Programming languages can be composed of 1 or more programming paradigms. Howeve
 * Usually have methods for exploiting concurrency:
     * Shared memory
     * Message passing
-    * Semi-automatic loop paralelization.
+    * Semi-automatic loop parallelization.
 
 ## Declarative Programming
 * The programmer describes the meaning/ result of the computations. Eg: `HTML`.
