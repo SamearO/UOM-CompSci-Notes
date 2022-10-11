@@ -53,7 +53,7 @@ Heuristic search algorithms use additional cost parameters to return a solution 
 
 ## Heuristic assumptions
 * Assume that each action has a non-negative cost, then each node will have a cost so far, annotated as `C(v)`
-* Assume that each situation has a non-negative lover bound of cost to achieve the goal, hence each node has an underestimate of remaining cost `U(v)`. Eg the straight line distance between a starting point and its destination.
+* Assume that each situation has a non-negative lower bound of cost to achieve the goal, hence each node has an underestimate of remaining cost `U(v)`. Eg the straight line distance between a starting point and its destination.
 * We can use `K(v)` = `C(v)` + `U(v)` to get how `good` a node is based on the cost to get to the node and the estimate of the cost to reach the destination. 
 * Any node with a higher `K(v)` is worse than a node with a lower `K(v)` hence any nodes encountered with a higher `K(v)` can be ignored. 
 * Furthermore, since all costs are non-negative, we can ignore all children of the 
