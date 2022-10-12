@@ -21,3 +21,6 @@
 
 ## Database Systems
 * These notes are comprehensive.
+
+## Intro to AI
+* These notes are comprehensive.
