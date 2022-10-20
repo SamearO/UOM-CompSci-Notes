@@ -66,4 +66,7 @@ def abprune(node, depth, a, b):
             if a >= b:
                 return b
         return b
+# default values for a and b
+abprune(node, depth, float('-inf'), float('inf'))
+
 ```
