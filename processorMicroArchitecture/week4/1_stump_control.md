@@ -14,7 +14,7 @@
 | fetch         | is 1 when in the fetch phase                                                                                      |
 | execute       | is 1 when in the execute phase                                                                                    |
 | memory        | is 1 when in the memory load/store phase                                                                          |
-| exp_op        | Sets the mode for amount of bits to extend based on if an instruction is type 2 or type 3                         |
+| ext_op        | Sets the mode for amount of bits to extend based on if an instruction is type 2 or type 3                         |
 | reg_write     | Determines if the selected register is written to from the signal passed to the mux (data in or ALU)              |
 | dest[2:0]     | Determines the destination register in the register bank                                                          |
 | srcA[2:0]     | Determines the register used for source A                                                                         |
@@ -33,7 +33,7 @@
 | fetch         | 1      | We are in the fetch phase                   |
 | execute       | 0      | We are not in the execute phase             |
 | memory        | 0      | We are not in a memory load/store phase     |
-| exp_op        | X      | Sign extender is not used in fetch          |
+| ext_op        | X      | Sign extender is not used in fetch          |
 | reg_write     | 1      | PC is incremented                           |
 | dest[2:0]     | 111    | We are writing to the PC                    |
 | srcA[2:0]     | 111    | Initial value of the PC                     |
