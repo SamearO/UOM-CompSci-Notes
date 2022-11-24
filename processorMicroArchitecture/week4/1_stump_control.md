@@ -44,5 +44,3 @@
 | cc_en         | 0      | Condition codes are not set during fetch    |
 | mem_rd        | 1      | Memory read during fetch                    |
 | mem_wr        | 0      | Memory is not being written to during fetch |
-
-## TODO: Add control signals for Execute and memory operations
