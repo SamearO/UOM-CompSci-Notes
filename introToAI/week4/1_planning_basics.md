@@ -39,6 +39,3 @@
 * Nodes can be grouped together by assuming that the cost of solving a conjunction of sub-nodes is approximated by the cost of solving each subgoal independently.
 * This does not give an underestimate in the case where actions undo the progress of other actions.
 * This does give an underestimate when actions are redundant eg 1 action can create the same progress as 2 other actions.
-
-# Planning graphs
-
