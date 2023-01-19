@@ -15,3 +15,5 @@
 * Route all paths individually
 * Update the cost function again to assign higher costs to paths that are used the most.
 * Run the iteration again over and over until happy.
+
+> The name of the machine learning technique for placing is `reinforcement learning`
