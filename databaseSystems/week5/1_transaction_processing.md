@@ -8,7 +8,7 @@
 ## Desireable Properties of Transactions
 * `Atomicity`: Transactions cannot be further divided, hence they either fail or succeed entirely.
 * `Consistency Preservation`: Transactions take the database from one consistent state to another.
-* `Isolation`: Transactions appear as if they are working in insolation.
+* `Isolation`: Transactions appear as if they are working in isolation.
 * `Durability`: Changes made by a transaction must not be lost due to a failure.
 
 ## Transaction Operations
