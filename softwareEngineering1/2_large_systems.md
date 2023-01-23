@@ -13,3 +13,5 @@
     * `Assert`: Verify the output of the action.
 * Tests should only have `AAA` pattern once, otherwise break them up into different tests.
 * Tests should avoid branch statements.
+
+### JUNIT CHEAT SHEET ON WORKSHOP 2
